@@ -1,0 +1,20 @@
+SDS 2.4	AQ Results	1.0
+Filename	juuni2
+PlateID	
+Assay Type	Absolute Quantification
+Run DateTime	6/2/13 8:51:19 PM
+Operator	
+ThermalCycleParams	
+
+Sample Information
+
+Well	Sample Name	Detector Name	Reporter	Task	Ct	Tm Value	Tm Type	Quantity	Qty Mean	Qty StdDev	Ct Median	Ct Mean	Ct StdDev	Ct Type	Template Name	Baseline Type	Baseline Start	Baseline Stop	Threshold Type	Threshold	FOS	HMD	LME	EW	BPR	NAW	HNS	HRN	EAF	BAF	TAF	CAF	
+1	A1	SYBR	SYBR	Unknown	20	84.3	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+2	A2	SYBR	SYBR	Unknown	20	84.3	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+3	A3	SYBR	SYBR	Unknown	20	83.7	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+4	A4	SYBR	SYBR	Unknown	21	84.5	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+5	A5	SYBR	SYBR	Unknown	21	84.8	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+6	A6	SYBR	SYBR	Unknown	30	84.8	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+7	A7	SYBR	SYBR	Unknown	20	84.3	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+8	A8	SYBR	SYBR	Unknown	25	83.9	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
+9	A9	SYBR	SYBR	Unknown	30	84.2	Auto Tm							Automatic Ct		Automatic			Automatic	0.08613565													
