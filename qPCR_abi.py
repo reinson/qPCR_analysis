@@ -24,15 +24,22 @@ def pp(plate,**kw):
         for row in plate:
             print row, plate[row]
 
+
 def test_value(value):
     try:
         result = float(value)
-        if result != 0:
-            return result
-        else:
-            return ""
-    except:
-        return ""
+    except ValueError as ve:
+        return ''
+    except TypeError as te:
+        raise TypeError('The value supplied cannot be turned into a float:', value)
+    except Exception as e:
+        raise Exception('Unexpected error converting the following to a float:', value)
+
+    if result == 0:
+        return ''
+
+    return result
+
 
 def calculate(values,fn):
    for i in values:
