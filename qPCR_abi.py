@@ -1,4 +1,6 @@
 import numpy as np
+import string
+
 
 def create_plate(nr_of_columns):
     plate = {}
@@ -32,13 +34,13 @@ def test_value(value):
     except:
         return ""
 
-def calculate(values,type):
+def calculate(values,fn):
    for i in values:
        if i:
            continue
        else:
            return ""
-   return type(values)
+   return fn(values)
 
 def analyze_triplicate(triplicate, allowed_std = 0.5 ,std_difference = 2):
     # get's triplicate data (three Ct values), returns list of elements:
